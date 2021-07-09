@@ -12,7 +12,10 @@ namespace EMICalculator
         public decimal ROI { get; set; }
         public decimal EmiAmount { get; set; }
         public decimal TotalPayable { get; set; }
-        public List<decimal> EMIs = new List<decimal>();
+        public List<decimal> EMIs = new List<decimal>()
+        {
+            0 // Starting with 0th Index as a 0th Month Lump Sum payment
+        };
 
         // Creating a Loan
         public Loan(string _bank, string _borrower, decimal _principal, decimal _years, decimal _roi)
@@ -34,7 +37,6 @@ namespace EMICalculator
         // Making a Payment
         public void Payment(decimal _amount, int _month)
         {
-            _month -= 1;
             EMIs[_month] += _amount;
         }
 
@@ -46,10 +48,14 @@ namespace EMICalculator
             if(_month > this.EMIs.Count)
             {
                 return " Not Valid ";
-            }else
+            }else if( _month == 0)
+            {
+                return this.BankName + " " + this.BorrowerName + " " + this.EMIs[0] + " " + Math.Ceiling(((this.TotalPayable - this.EMIs[0]) / this.EmiAmount));
+            }
+            else
             {
                 decimal Sum = 0;
-                for(int i = 0; i< _month; i++)
+                for(int i = 0; i<= _month; i++)
                 {
                     Sum += this.EMIs[i];
                 }
