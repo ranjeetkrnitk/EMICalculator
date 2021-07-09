@@ -1,0 +1,17 @@
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/bin/Debug/netcoreapp3.1/geektrust.deps.json
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/bin/Debug/netcoreapp3.1/geektrust.runtimeconfig.json
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/bin/Debug/netcoreapp3.1/geektrust.runtimeconfig.dev.json
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/bin/Debug/netcoreapp3.1/geektrust.dll
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/bin/Debug/netcoreapp3.1/geektrust.pdb
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/obj/Debug/netcoreapp3.1/EMICalculator.csproj.AssemblyReference.cache
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/obj/Debug/netcoreapp3.1/EMICalculator.AssemblyInfoInputs.cache
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/obj/Debug/netcoreapp3.1/EMICalculator.AssemblyInfo.cs
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/obj/Debug/netcoreapp3.1/EMICalculator.csproj.CoreCompileInputs.cache
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/obj/Debug/netcoreapp3.1/geektrust.dll
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/obj/Debug/netcoreapp3.1/geektrust.pdb
+/Users/ranjeetkumar/Projects/EMICalculator/EMICalculator/obj/Debug/netcoreapp3.1/EMICalculator.genruntimeconfig.cache
+/Users/ranjeetkumar/Projects/EMICalculator/geektrust/geektrust.deps.json
+/Users/ranjeetkumar/Projects/EMICalculator/geektrust/geektrust.runtimeconfig.json
+/Users/ranjeetkumar/Projects/EMICalculator/geektrust/geektrust.runtimeconfig.dev.json
+/Users/ranjeetkumar/Projects/EMICalculator/geektrust/geektrust.dll
+/Users/ranjeetkumar/Projects/EMICalculator/geektrust/geektrust.pdb
